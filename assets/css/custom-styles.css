@@ -1,0 +1,28 @@
+/* Custom Styles for Nara Domingos website */
+
+.hero-image img, .mood-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Adds a soft, luxury feel */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Adds depth */
+  margin: 20px 0;
+}
+
+.services-image {
+  float: right;
+  width: 300px;
+  max-width: 100%;
+  margin: 0 0 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(224, 169, 109, 0.2); /* Subtle rose gold border matching the accent color */
+}
+
+@media (max-width: 600px) {
+  .services-image {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+}

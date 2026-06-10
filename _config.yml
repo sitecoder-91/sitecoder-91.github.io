@@ -15,17 +15,19 @@ title: Nara Domingos Escort Services
 # Your name to show in the footer
 author: Nara Domingos
 
+remove-ads: true
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Blog: "blog"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Services: "services"
+#   Blog: "blog"
+#   Resources:
+#     - Beautiful Jekyll: "https://beautifuljekyll.com"
+#     - Learn markdown: "https://www.markdowntutorial.com/"
+#   Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -58,7 +60,7 @@ social-network-links:
   twitter: lylla_sin
 # patreon: DeanAttali
 # youtube: "@daattali"
-  whatsapp: 15551212
+  whatsapp: 447426446329
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -73,7 +75,7 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-  mastodon: iaus.social/@nara_dreams
+#  mastodon: iaus.social/@nara_dreams
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
@@ -87,7 +89,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Nara Domingos Escort Services
 
 ###########################
 # --- General options --- #
@@ -129,7 +131,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "escort,united kingdom,gym,tattos,fit,GFE"
+keywords: "escort,united kingdom,gym,tattos,fit,GFE,saraharoundthewrold1,wheresarah,lylla_sin"
 
 ######################################
 # --- Colours / background image --- #
@@ -160,8 +162,8 @@ footer-hover-col: "#D4A373"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
