@@ -35,4 +35,6 @@ Beyond the physical, I am open to exploring **"A" levels** of intensity—whatev
 ### Your Experience, Your Rules
 The beauty of our time together lies in the lack of limitations. Whether you crave the soft, nurturing side of a girlfriend or the intense, demanding side of a lover, I am here to meet you exactly where you are. 
 
+No surprise, no extras: _everything_ for a flat rate of 130£ ph.
+
 **Ready to curate your perfect encounter?**
