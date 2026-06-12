@@ -23,7 +23,8 @@ remove-ads: true
 
 navbar-links:
   Services: "services"
-#   Blog: "blog"
+  About: "about"
+  Blog: "blog"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -54,20 +55,22 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "nara.domingos.br@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: narinha
-# github: daattali
+  whatsapp: 447426446329
+  mastodon: aus.social/@nara_dreams
+  bluesky: naraexperience.space
+  snapchat: lylla_sin
   twitter: lylla_sin
+  instagram: nara13.13
+  facebook: narinha
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+# github: daattali
 # patreon: DeanAttali
 # youtube: "@daattali"
-  whatsapp: 447426446329
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
-  snapchat: lylla_sin
-  instagram: nara13.13
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -75,8 +78,6 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: iaus.social/@nara_dreams
-#  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
@@ -97,9 +98,9 @@ rss-description: Nara Domingos Escort Services
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
   reddit: false
 
@@ -177,7 +178,7 @@ site-css:
 #gtag: "G-XXXXXXXXXX"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e
+cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e"
 
 # Google Tag Manager ID
 #gtm: ""
