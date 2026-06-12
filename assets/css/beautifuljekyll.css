@@ -1,5 +1,7 @@
 ---
 layout: null
+sitemap:
+  exclude: "yes"
 ---
 
 @import url("pygment_highlights.css");
