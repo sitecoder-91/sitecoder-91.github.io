@@ -1,6 +1,16 @@
 #!/bin/bash
 set -e
 
+# Parse command-line options
+CONFIRM=false
+while [[ "$#" -gt 0 ]]; do
+  case $1 in
+    -c|--confirm) CONFIRM=true ;;
+    *) echo "Unknown parameter: $1" >&2; echo "Usage: $0 [-c|--confirm]" >&2; exit 1 ;;
+  esac
+  shift
+done
+
 # Load _config.yml to get site URL
 if [ ! -f "_config.yml" ]; then
   echo "Error: _config.yml not found." >&2
@@ -49,6 +59,10 @@ if [ -z "$URLS" ]; then
   exit 1
 fi
 
+# Replace localhost/127.0.0.1 development URLs with the production URL
+ESCAPED_URL=$(echo "$URL" | sed 's#[&/\]#\\&#g')
+URLS=$(echo "$URLS" | sed -E "s#https?://(localhost|127\.0\.0\.1):[0-9]+#${ESCAPED_URL}#g")
+
 # Count URLs
 URL_COUNT=$(echo "$URLS" | grep -c '^')
 echo "Found $URL_COUNT URLs to submit."
@@ -66,6 +80,7 @@ while read -r line; do
 done <<< "$URLS"
 
 # Construct payload JSON
+TARGET_API="https://www.bing.com/indexnow"
 PAYLOAD=$(cat <<EOF
 {
   "host": "$HOST",
@@ -78,16 +93,34 @@ PAYLOAD=$(cat <<EOF
 EOF
 )
 
+# User confirmation prompt if requested
+if [ "$CONFIRM" = true ]; then
+  echo "Target URL: $TARGET_API"
+  echo "JSON Payload:"
+  echo "$PAYLOAD"
+  echo ""
+  read -p "Do you want to submit these URLs to IndexNow? (y/N): " CONFIRM_ANSWER
+  case "$CONFIRM_ANSWER" in
+    [yY]|[yY][eE][sS])
+      echo "Proceeding with submission..."
+      ;;
+    *)
+      echo "Submission cancelled by user."
+      exit 0
+      ;;
+  esac
+fi
+
 # Submit to IndexNow
 echo "Submitting URLs to IndexNow..."
 RESPONSE=$(curl -s -w "%{http_code}" -o response_body.txt \
   -X POST \
   -H "Content-Type: application/json; charset=utf-8" \
   -d "$PAYLOAD" \
-  https://www.bing.com/indexnow)
+  "$TARGET_API")
 
-if [ "$RESPONSE" -eq 200 ]; then
-  echo "Success! URLs submitted successfully to IndexNow."
+if [ "$RESPONSE" -eq 200 ] || [ "$RESPONSE" -eq 202 ]; then
+  echo "Success! URLs submitted successfully to IndexNow (Status $RESPONSE)."
   rm -f response_body.txt
 else
   echo "Failed to submit URLs. HTTP Status: $RESPONSE" >&2
@@ -98,3 +131,4 @@ else
   fi
   exit 1
 fi
+
