@@ -17,6 +17,9 @@ author: Nara Domingos
 
 remove-ads: true
 
+# The URL of your website
+url: "https://www.naraexperience.space"
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
