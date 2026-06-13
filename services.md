@@ -10,31 +10,39 @@ Every connection I share is a unique tapestry, woven specifically for you. My ap
 
 While the foundation is rooted in genuine companionship—dinners, conversation, and deep connection—my world is one where every fantasy is an invitation to explore. There are no exclusions here; only opportunities to push the boundaries of pleasure and surrender.
 
-### The Bespoke Menu
+### Curation & Customization
 
-Whether your interests lean toward the romantic, the erotic, or the intense, we will curate the experience to your exact specifications:
+Whether your interests lean toward the romantic, the sensual, or the adventurous, we will curate the experience to your exact preferences:
 
-**Connection & Elegance**
-Our time together begins with the art of presence. From sophisticated **dinner dates** and acting as your exclusive **travel companion** to the intimacy of a private **striptease** or a personalized **lapdancing** session, I excel at setting the stage for whatever follows.
+**Social & Public Companionship**
+Our time together begins with the art of presence. From sophisticated **dinner dates** and acting as your exclusive **travel companion** to joining you at social events, hosting, or attending parties, I excel at setting the stage and matching your social lifestyle.
 
-**Passion & Exploration**
-When the evening shifts from public to private, my repertoire is designed to satisfy the deepest cravings. I am fully experienced in:
-* **The Essentials:** Expert-level **oral** (including **deep throat** and **oral without**), **penetration (protected)**, and **receiving oral**.
-* **The Intensity:** High-energy **spanking (receiving)**, **sub games**, and **domination (receiving)** for those who enjoy the thrill of control, as well as **tie & tease** and **toys** to heighten the tension.
-* **The Provocative:** Explorations such as **anal play**, **rimming (receiving)**, **face sitting**, and the release of **facials** or **female ejaculation**. 
-* **The Extraordinary:** I am adept at **watersports**, the creative use of **uniforms**, and facilitating **FFM** or **MMF 3Somes**, as well as hosting or joining **parties**.
+**Sensual & Intimate Encounters**
+When we shift from public to private, my focus is on creating a deeply immersive, warm, and passionate connection:
+* **The Girlfriend Experience (GFE):** A focus on genuine chemistry, mutual affection, and unhurried intimacy.
+* **Sensual Movement:** Private dance, striptease, and erotic tease designed to build anticipation.
+* **Intimate Connection:** Sensual and physical closeness tailored to satisfy your deepest desires.
+
+**Intimacy & Fetish Exploration**
+I welcome those who want to push boundaries and explore unique dynamics in a safe, consensual environment:
+* **Power Dynamics:** Exploring roles of dominance and submission, control, and submissive games.
+* **Sensory & Impact Play:** Light impact, spanking, bondage (tie & tease), and the creative use of toys.
+* **Roleplay & Fetish:** Custom scenarios, uniforms, dress-up, and specific fetishes.
+* **Multi-Companion Bookings:** Open to facilitating FFM or MMF group encounters.
 
 <div class="mood-image">
     <img src="{{ '/assets/img/bathtub.jpg' | relative_url }}" alt="Intimate atmosphere" />
 </div>
+
 **Total Immersion**
-Beyond the physical, I am open to exploring **"A" levels** of intensity—whatever your specific fetish or desire may be, we will navigate it together with trust, enthusiasm, and absolute discretion.
+Beyond the physical, I am open to exploring advanced levels of intensity. Whatever your specific desire or scenario may be, we will navigate it together with absolute trust, enthusiasm, and discretion.
 
 ---
 
-### Your Experience, Your Rules
-The beauty of our time together lies in the lack of limitations. Whether you crave the soft, nurturing side of a girlfriend or the intense, demanding side of a lover, I am here to meet you exactly where you are. 
+### Rates & Booking
+My rates are structured purely around the duration of our companionship, with all aspects of our curated encounter included:
 
-No surprise, no extras: _everything_ for a flat rate of 130£ ph.
+* **Companion Rate:** £130 per hour
+* **Extended bookings & Travel:** Custom rates available upon request.
 
 **Ready to curate your perfect encounter?**
