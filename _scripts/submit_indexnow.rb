@@ -4,6 +4,16 @@ require 'rexml/document'
 require 'net/http'
 require 'json'
 require 'uri'
+require 'optparse'
+
+# Parse command-line options
+confirm = false
+OptionParser.new do |opts|
+  opts.banner = "Usage: submit_indexnow.rb [options]"
+  opts.on("-c", "--confirm", "Confirm submission before sending") do
+    confirm = true
+  end
+end.parse!
 
 # Load _config.yml to get the site URL
 config_path = File.expand_path('../_config.yml', __dir__)
@@ -73,14 +83,26 @@ if urls.empty?
   exit 1
 end
 
+# Replace localhost/127.0.0.1 development URLs with the production URL
+prod_uri = URI.parse(site_url)
+urls.map! do |u|
+  uri = URI.parse(u)
+  if uri.host == 'localhost' || uri.host == '127.0.0.1'
+    uri.scheme = prod_uri.scheme
+    uri.host = prod_uri.host
+    uri.port = prod_uri.port == prod_uri.default_port ? nil : prod_uri.port
+  end
+  uri.to_s
+end
+
 puts "Found #{urls.size} URLs to submit."
 
 # Submit to IndexNow
-uri = URI.parse('https://www.bing.com/indexnow')
-http = Net::HTTP.new(uri.host, uri.port)
+target_uri = URI.parse('https://www.bing.com/indexnow')
+http = Net::HTTP.new(target_uri.host, target_uri.port)
 http.use_ssl = true
 
-request = Net::HTTP::Post.new(uri.path, {'Content-Type' => 'application/json; charset=utf-8'})
+request = Net::HTTP::Post.new(target_uri.path, {'Content-Type' => 'application/json; charset=utf-8'})
 payload = {
   host: host,
   key: key,
@@ -90,13 +112,29 @@ payload = {
 
 request.body = payload.to_json
 
+if confirm
+  puts "Target URL: #{target_uri}"
+  puts "JSON Payload:"
+  puts JSON.pretty_generate(payload)
+  puts ""
+  print "Do you want to submit these URLs to IndexNow? (y/N): "
+  answer = gets.chomp.strip.downcase
+  if answer == 'y' || answer == 'yes'
+    puts "Proceeding with submission..."
+  else
+    puts "Submission cancelled by user."
+    exit 0
+  end
+end
+
 puts "Submitting URLs to IndexNow..."
 response = http.request(request)
 
-if response.code.to_i == 200
-  puts "Success! URLs submitted successfully to IndexNow."
+if response.code.to_i == 200 || response.code.to_i == 202
+  puts "Success! URLs submitted successfully to IndexNow (Status #{response.code})."
 else
   puts "Failed to submit URLs. HTTP Status: #{response.code}"
   puts "Response: #{response.body}"
   exit 1
 end
+
