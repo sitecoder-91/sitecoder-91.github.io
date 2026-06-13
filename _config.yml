@@ -183,6 +183,9 @@ site-css:
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e"
 
+# Clarity Analytics (Session Recording)
+clarity: "x6cja3x9pi"
+
 # Google Tag Manager ID
 #gtm: ""
 
