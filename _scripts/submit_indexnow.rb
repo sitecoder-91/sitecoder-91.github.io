@@ -97,8 +97,46 @@ end
 
 puts "Found #{urls.size} URLs to submit."
 
+# Select search engine
+engines = [
+  { name: 'IndexNow', host: 'api.indexnow.org' },
+  { name: 'Amazon', host: 'indexnow.amazonbot.amazon' },
+  { name: 'Bing', host: 'www.bing.com' },
+  { name: 'Naver', host: 'searchadvisor.naver.com' },
+  { name: 'Seznam.cz', host: 'search.seznam.cz' },
+  { name: 'Yandex', host: 'yandex.com' },
+  { name: 'Yep', host: 'indexnow.yep.com' }
+]
+
+puts "Select the search engine to submit the request to:"
+engines.each_with_index do |eng, idx|
+  puts "#{idx + 1}. #{eng[:name]} (#{eng[:host]})"
+end
+
+choice = nil
+loop do
+  print "Enter choice (1-#{engines.size}): "
+  input = gets
+  if input.nil?
+    puts "Error: No input received."
+    exit 1
+  end
+  input = input.strip
+  if input =~ /\A\d+\z/
+    val = input.to_i
+    if val >= 1 && val <= engines.size
+      choice = val - 1
+      break
+    end
+  end
+  puts "Invalid choice. Please enter a number between 1 and #{engines.size}."
+end
+
+selected_engine = engines[choice]
+puts "Selected engine: #{selected_engine[:name]}"
+
 # Submit to IndexNow
-target_uri = URI.parse('https://www.bing.com/indexnow')
+target_uri = URI.parse("https://#{selected_engine[:host]}/indexnow")
 http = Net::HTTP.new(target_uri.host, target_uri.port)
 http.use_ssl = true
 

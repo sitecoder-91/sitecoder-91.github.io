@@ -79,8 +79,35 @@ while read -r line; do
   fi
 done <<< "$URLS"
 
-# Construct payload JSON
-TARGET_API="https://www.bing.com/indexnow"
+# Select search engine
+engines=(
+  "IndexNow|api.indexnow.org"
+  "Amazon|indexnow.amazonbot.amazon"
+  "Bing|www.bing.com"
+  "Naver|searchadvisor.naver.com"
+  "Seznam.cz|search.seznam.cz"
+  "Yandex|yandex.com"
+  "Yep|indexnow.yep.com"
+)
+
+echo "Select the search engine to submit the request to:"
+for i in "${!engines[@]}"; do
+  IFS='|' read -r name host <<< "${engines[$i]}"
+  echo "$((i+1)). $name ($host)"
+done
+
+while true; do
+  read -p "Enter choice (1-${#engines[@]}): " CHOICE
+  if [[ "$CHOICE" =~ ^[0-9]+$ ]] && [ "$CHOICE" -ge 1 ] && [ "$CHOICE" -le "${#engines[@]}" ]; then
+    SELECTED_INDEX=$((CHOICE-1))
+    break
+  fi
+  echo "Invalid choice. Please enter a number between 1 and ${#engines[@]}."
+done
+
+IFS='|' read -r SELECTED_NAME SELECTED_HOST <<< "${engines[$SELECTED_INDEX]}"
+echo "Selected engine: $SELECTED_NAME"
+TARGET_API="https://${SELECTED_HOST}/indexnow"
 PAYLOAD=$(cat <<EOF
 {
   "host": "$HOST",
