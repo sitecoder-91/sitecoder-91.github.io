@@ -186,6 +186,9 @@ cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e"
 # Clarity Analytics (Session Recording)
 clarity: "x6cja3x9pi"
 
+# Yandex Metrika
+metrika: "109844125"
+
 # Google Tag Manager ID
 #gtm: ""
 
