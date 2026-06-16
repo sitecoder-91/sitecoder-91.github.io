@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Nara Escort
+title: Elite Escort & GFE
 subtitle: Real Chemistry, Real Passion, Really Yours.
-share-description: "Nara Domingos | AKA saraharoundthewrold1 and lylla_sin, escorting site"
+share-description: "Nara Domingos (aka saraharoundtheworld1 & lylla_sin) offers premium companion & escort services. Explore bookings & customized experiences."
 ---
 
 **The fantasy stops where I begin.**
