@@ -135,7 +135,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "escort,united kingdom,gym,tattos,fit,GFE,saraharoundthewrold1,wheresarah,lylla_sin"
+keywords: "escort,united kingdom, gym, tattos, fit, GFE, saraharoundthewrold1, wheresarah, lylla_sin"
 
 ######################################
 # --- Colours / background image --- #
@@ -184,7 +184,7 @@ gtag: "G-WL72Y0L66G"
 cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e"
 
 # Clarity Analytics (Session Recording)
-clarity: "x6cja3x9pi"
+#clarity: "x6cja3x9pi"
 
 # Yandex Metrika
 metrika: "109844125"

@@ -88,3 +88,11 @@ Hello, my loves.
 Blog text goes here. If you include an image, use:
 <img src="{{ '/assets/img/image-name.jpg' | relative_url }}" alt="Description" class="blog-post-image">
 ```
+
+### Creating images
+Create images possibily in the project assets folder.
+
+If generating the image in the assets folder is not possible:
+- identify a suitable alternative.
+- Try to copy the image from the above folder to the assets folder
+- if this is prevented by sandbox permission, inform the user of the failure, return the full path of the genrated image and explicitly ask user to copy it to the assets folder.
