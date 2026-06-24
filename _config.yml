@@ -27,6 +27,7 @@ url: "https://www.naraexperience.space"
 navbar-links:
   Companion Services: "services"
   About Me: "about"
+  Media: "media"
   Blog: "blog"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"

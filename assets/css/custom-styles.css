@@ -38,3 +38,234 @@
   box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
   border: 0.08em solid rgba(224, 169, 109, 0.2);
 }
+
+/* Media Gallery Styles */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.media-item {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(224, 169, 109, 0.15); /* Accent color border */
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.media-item:hover {
+  transform: scale(1.03);
+  border-color: rgba(224, 169, 109, 0.8);
+  box-shadow: 0 10px 25px rgba(224, 169, 109, 0.25);
+}
+
+.media-item img,
+.media-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Video specific overlays */
+.video-thumbnail-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.media-item:hover .play-overlay {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.play-overlay i {
+  color: #E0A96D; /* Accent color */
+  font-size: 2.5rem;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.media-item:hover .play-overlay i {
+  transform: scale(1.2);
+}
+
+/* Lightbox Modal */
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 18, 18, 0.98);
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox-modal.show {
+  display: flex;
+  opacity: 1;
+}
+
+.lightbox-content-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  max-height: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-media {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(224, 169, 109, 0.1);
+  display: none;
+  animation: zoomIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.lightbox-media.active {
+  display: block;
+}
+
+/* Lightbox Controls */
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  color: #EAEAEA;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+  z-index: 10000;
+  padding: 15px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-close:focus,
+.lightbox-prev:focus,
+.lightbox-next:focus {
+  outline: none;
+}
+
+.lightbox-close {
+  top: -60px;
+  right: 10px;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.lightbox-prev {
+  top: 50%;
+  left: -80px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.lightbox-next {
+  top: 50%;
+  right: -80px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.lightbox-close:hover,
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  color: #E0A96D;
+}
+
+.lightbox-prev:hover {
+  transform: translateY(-50%) scale(1.1) translateX(-5px);
+}
+
+.lightbox-next:hover {
+  transform: translateY(-50%) scale(1.1) translateX(5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .lightbox-content-container {
+    max-width: 80%;
+  }
+  .lightbox-prev {
+    left: -50px;
+  }
+  .lightbox-next {
+    right: -50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lightbox-content-container {
+    max-width: 95%;
+    max-height: 70vh;
+  }
+  .lightbox-prev {
+    left: 10px;
+    top: auto;
+    bottom: -60px;
+    transform: none;
+    font-size: 1.8rem;
+  }
+  .lightbox-next {
+    right: 10px;
+    top: auto;
+    bottom: -60px;
+    transform: none;
+    font-size: 1.8rem;
+  }
+  .lightbox-prev:hover, .lightbox-next:hover {
+    transform: scale(1.1);
+  }
+  .lightbox-close {
+    top: -55px;
+    right: 10px;
+  }
+  .media-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+  }
+}
