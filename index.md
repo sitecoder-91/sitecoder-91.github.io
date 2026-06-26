@@ -2,7 +2,7 @@
 layout: page
 title: Elite Escort & GFE
 subtitle: Real Chemistry, Real Passion, Really Yours.
-share-description: "Nara Domingos (aka saraharoundtheworld1 & lylla_sin) offers premium companion & escort services. Explore bookings & customized experiences."
+share-description: "Nara Domingos (saraharoundtheworld1, wheresarah, lylla_sin) is a premier UK escort & companion. Book custom Girlfriend Experiences (GFE) online."
 ---
 
 **The fantasy stops where I begin.**

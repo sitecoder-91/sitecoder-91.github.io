@@ -3,6 +3,7 @@ layout: page
 title: Media
 subtitle: "Moments & Memories"
 full-width: true
+share-description: "Explore the media gallery of Nara Domingos. Browse intimate photos, videos, and captured memories of a premium UK companion & elite GFE provider."
 ---
 
 <!-- Gallery Grid -->
