@@ -9,8 +9,6 @@ It’s a pleasure to finally make your acquaintance—or, perhaps, to be reacqua
 
 Maybe you already know me by another name? Saraharoundtheworld1, WhereSarah, Violet Raz or perhaps Lylla_Sin?
 
-Maybe we met when I was still using AdultWork, Vivastreet or Erobella?
-
 Regardless of whether we’ve crossed paths before or if our first encounter is just around the corner, let me reintroduce myself properly.
 
 (And let’s be honest, darling—I’m quite certain our meeting is inevitable.)
