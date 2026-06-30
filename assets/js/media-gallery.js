@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const type = item.getAttribute('data-type');
     
     item.addEventListener('click', () => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'gallery_view',
+        media_src: src,
+        media_type: type
+      });
       openLightbox(index);
     });
     

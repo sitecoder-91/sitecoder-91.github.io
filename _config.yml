@@ -58,7 +58,8 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "nara.domingos.br@gmail.com"
+#  email: "nara.domingos.br@gmail.com"
+  email: "nara.domingos@atomicmail.io"
   whatsapp: 447312041544
   telephone: 00447537126100
   mastodon: aus.social/@nara_dreams
@@ -192,7 +193,7 @@ cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e"
 metrika: "109844125"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-KPPBBKP4"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls

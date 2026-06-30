@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Solid dark background matching navbar-col / page-col -->
+  <rect width="512" height="512" fill="#121212" />
+  <!-- Subtle circular gold border/accent -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#E0A96D" stroke-width="12" opacity="0.8" />
+  <!-- The letters ND styled elegantly in Baskerville Italic -->
+  <text x="256" y="315" text-anchor="middle" font-family="'Baskerville', 'Georgia', 'Times New Roman', serif" font-style="italic" font-weight="bold" font-size="170" fill="#E0A96D" letter-spacing="-8">ND</text>
+</svg>
