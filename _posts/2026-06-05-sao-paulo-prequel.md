@@ -23,7 +23,7 @@ Soon, my curiosity blossomed into something much larger. I began to navigate the
 
 I loved the chess game of it. The thrill of holding a man's gaze across a dimly lit lounge, letting him think he was the one orchestrating the evening, while we both knew the current was carrying him exactly where I wanted him to go. 
 
-I was enjoying so much the thrill of the hunt, the power of seduction, that I started hosting swingers parties at my place in 27 R. Santo Henrique... and I still do when I'm back home.
+I was enjoying so much the thrill of the hunt, the power of seduction, that I started hosting swingers parties at my place in [27 R. Santo Henrique](https://w3w.co/task.greeting.answer)... and I still do when I'm back home.
 
 But as Sampa's concrete skyline grew familiar, I started to dream of wider horizons. The whispers of the girls who had traveled abroad, the allure of independent success on a global scale, and the simple desire to see how my Brazilian warmth would translate in cooler climates... it all pointed in one direction.
 
