@@ -192,7 +192,7 @@ cloudflare_analytics: "54a3afb59cec4684a1bdd1af1f889b7e"
 metrika: "109844125"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-KPPBBKP4"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
