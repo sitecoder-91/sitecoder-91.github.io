@@ -9,5 +9,22 @@ permalink: /404.html
   <h1>Move along. (404 error)</h1>
   <br />
 
-  <img src="{{ 'assets/img/404.jpg' | relative_url }}" alt="Not found" />
+  <img id="error-img" alt="Not found" style="visibility: hidden; max-width: 70%; height: auto; margin: 0 auto;" />
+  
+  <script>
+    var images = [
+      {% for image in site.static_files %}
+        {% if image.path contains '/assets/img/404/' %}
+          "{{ image.path | relative_url }}"{% unless forloop.last %},{% endunless %}
+        {% endif %}
+      {% endfor %}
+    ];
+
+    if (images.length > 0) {
+      var randomIndex = Math.floor(Math.random() * images.length);
+      var imgElement = document.getElementById('error-img');
+      imgElement.src = images[randomIndex];
+      imgElement.style.visibility = "visible"; 
+    }
+  </script>
 </div>
