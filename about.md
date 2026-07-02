@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About Nara
+title: About Nara Domingos
+subtitle: "Brazilian Escort in the UK: My Journey & Philosophy"
+share-description: "Get to know Nara Domingos (aka wheresarah / saraharoundtheworld1). Read about the life, background, and philosophy of a premier Brazilian escort based in East Anglia (Norwich, Cambridge) and London."
 ---
 
 ## Hi, I’m Nara.
@@ -22,4 +24,6 @@ And that is my greatest gift to you. I love the feeling of whispering against yo
 I love to let you think you’re in control, even when we both know exactly who’s running the show.
 
 I’ll be seeing you soon. I can already tell you’re craving it.
+
+Today, I operate as an independent companion and escort based in the UK. My home base is in East Anglia, split between Norwich and Cambridge, but I frequently travel to London for longer bookings and overnight engagements.
 
