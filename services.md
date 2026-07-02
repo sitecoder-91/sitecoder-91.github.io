@@ -1,7 +1,8 @@
 ---
 layout: page
-title: The Art of the Experience
-subtitle: "Beyond Boundaries: A Tailored Encounter"
+title: Companion Services & Girlfriend Experience (GFE)
+subtitle: "Tailored Encounters by Nara Domingos"
+share-description: "Explore the Girlfriend Experience (GFE), power dynamics, and sensual escort services offered by independent Brazilian companion Nara Domingos. Available in London, Cambridge, Norwich, and East Anglia."
 ---
 
 <img src="/assets/img/sensual.jpg" alt="Sensual" class="services-image" />
@@ -38,6 +39,13 @@ I welcome those who want to push boundaries and explore unique dynamics in a saf
 Beyond the physical, I am open to exploring advanced levels of intensity. Whatever your specific desire or scenario may be, we will navigate it together with absolute trust, enthusiasm, and discretion.
 
 ---
+
+### Travel & Locations: London, East Anglia & Beyond
+I am based in the East of England, dividing my time between:
+* **Norwich Escort / Companion:** Home hosting and local outcalls in Norfolk.
+* **Cambridge Escort / Companion:** Regular visits to Cambridge for private encounters and dinner dates.
+* **London Escort / Companion:** Trips to London for extended, multi-hour, or overnight Girlfriend Experience bookings.
+* **East Anglia & UK-wide Travel:** Available across East Anglia (often searched as *escort East Anglia* by local clients) and UK-wide for tour bookings.
 
 ### Rates & Booking
 My rates are structured purely around the duration of our companionship, with all aspects of our curated encounter included:
