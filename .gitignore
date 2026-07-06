@@ -2,6 +2,9 @@
 _site
 .sass-cache
 .vagrant
+.venv/
+.jekyll-cache/
+_scripts/
 
 # general
 .DS_Store
