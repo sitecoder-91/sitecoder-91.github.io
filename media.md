@@ -25,7 +25,8 @@ share-description: "Explore the media gallery of Nara Domingos. Browse intimate 
     {% elsif ext == '.mp4' or ext == '.mov' or ext == '.webm' %}
       <div class="media-item" data-src="{{ file.path | relative_url }}" data-type="video" aria-label="Play Video">
         <div class="video-thumbnail-wrapper">
-          <video src="{{ file.path | relative_url }}#t=0.5" preload="metadata" muted playsinline></video>
+          {% assign filename_no_ext = file.name | replace: ext, '' %}
+          <img src="{{ '/assets/img/thumbnails/' | append: filename_no_ext | append: '.jpg' | relative_url }}" alt="Nara Domingos Video Thumbnail" loading="lazy" />
           <div class="play-overlay">
             <i class="fas fa-play"></i>
           </div>
