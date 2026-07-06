@@ -18,15 +18,19 @@ share-description: "Explore the media gallery of Nara Domingos. Browse intimate 
   {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/media/'" %}
   {% for file in files %}
     {% assign ext = file.extname | downcase %}
+    {% assign custom_alt = site.data.media_descriptions[file.name] %}
+    {% if custom_alt == nil or custom_alt == "" %}
+      {% assign custom_alt = "An intimate moment with Nara Domingos" %}
+    {% endif %}
     {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.gif' or ext == '.webp' %}
       <div class="media-item" data-src="{{ file.path | relative_url }}" data-type="image" aria-label="View Image">
-        <img src="{{ file.path | relative_url }}" alt="Nara Domingos Media Image" loading="lazy" />
+        <img src="{{ file.path | relative_url }}" alt="{{ custom_alt }}" loading="lazy" />
       </div>
     {% elsif ext == '.mp4' or ext == '.mov' or ext == '.webm' %}
       <div class="media-item" data-src="{{ file.path | relative_url }}" data-type="video" aria-label="Play Video">
         <div class="video-thumbnail-wrapper">
           {% assign filename_no_ext = file.name | replace: ext, '' %}
-          <img src="{{ '/assets/img/thumbnails/' | append: filename_no_ext | append: '.jpg' | relative_url }}" alt="Nara Domingos Video Thumbnail" loading="lazy" />
+          <img src="{{ '/assets/img/thumbnails/' | append: filename_no_ext | append: '.jpg' | relative_url }}" alt="{{ custom_alt }}" loading="lazy" />
           <div class="play-overlay">
             <i class="fas fa-play"></i>
           </div>
