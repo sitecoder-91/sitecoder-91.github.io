@@ -39,6 +39,45 @@
   border: 0.08em solid rgba(224, 169, 109, 0.2);
 }
 
+/* Media Gallery Filters */
+.media-filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0 10px 0;
+}
+
+.filter-btn {
+  background: transparent;
+  color: #EAEAEA;
+  border: 1px solid rgba(224, 169, 109, 0.4);
+  padding: 8px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  letter-spacing: 0.05em;
+}
+
+.filter-btn:hover {
+  background: rgba(224, 169, 109, 0.1);
+  color: #E0A96D;
+  border-color: #E0A96D;
+}
+
+.filter-btn.active {
+  background: #E0A96D;
+  color: #121212;
+  border-color: #E0A96D;
+  box-shadow: 0 4px 15px rgba(224, 169, 109, 0.3);
+}
+
+.media-item.hidden {
+  display: none;
+}
+
 /* Media Gallery Styles */
 .media-grid {
   display: grid;

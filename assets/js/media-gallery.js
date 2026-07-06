@@ -8,11 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.getElementById('lightbox-next');
   
   if (!modal || mediaItems.length === 0) return;
-  
+
   let currentIndex = 0;
+  let activePlaylist = [];
   
   // Map media items to structured objects and set up click handlers
-  const playlist = mediaItems.map((item, index) => {
+  const allPlaylist = mediaItems.map((item) => {
     const src = item.getAttribute('data-src');
     const type = item.getAttribute('data-type');
     
@@ -23,11 +24,18 @@ document.addEventListener('DOMContentLoaded', () => {
         media_src: src,
         media_type: type
       });
-      openLightbox(index);
+      // Find the index of this item in the currently active playlist
+      const activeIndex = activePlaylist.findIndex(p => p.src === src);
+      if (activeIndex !== -1) {
+        openLightbox(activeIndex);
+      }
     });
     
-    return { src, type };
+    return { src, type, element: item };
   });
+
+  // Initialize active playlist as all items
+  activePlaylist = [...allPlaylist];
   
   function openLightbox(index) {
     currentIndex = index;
@@ -50,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function loadMedia(index) {
-    const item = playlist[index];
+    const item = activePlaylist[index];
     if (!item) return;
     
     // Reset active states and hide previous elements
@@ -75,14 +83,40 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   function showNext() {
-    currentIndex = (currentIndex + 1) % playlist.length;
+    if (activePlaylist.length === 0) return;
+    currentIndex = (currentIndex + 1) % activePlaylist.length;
     loadMedia(currentIndex);
   }
   
   function showPrev() {
-    currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
+    if (activePlaylist.length === 0) return;
+    currentIndex = (currentIndex - 1 + activePlaylist.length) % activePlaylist.length;
     loadMedia(currentIndex);
   }
+
+  // Filtering logic
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove active class from all buttons and add to clicked
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      const filterValue = btn.getAttribute('data-filter');
+      
+      // Filter items
+      allPlaylist.forEach(item => {
+        if (filterValue === 'all' || item.type === filterValue) {
+          item.element.classList.remove('hidden');
+        } else {
+          item.element.classList.add('hidden');
+        }
+      });
+      
+      // Rebuild active playlist
+      activePlaylist = allPlaylist.filter(item => filterValue === 'all' || item.type === filterValue);
+    });
+  });
   
   // Event listeners
   closeBtn.addEventListener('click', closeLightbox);

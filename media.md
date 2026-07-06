@@ -6,6 +6,13 @@ full-width: true
 share-description: "Explore the media gallery of Nara Domingos. Browse intimate photos, videos, and captured memories of a premium UK companion & elite GFE provider."
 ---
 
+<!-- Filter Buttons -->
+<div class="media-filter-container">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="image">Photos</button>
+  <button class="filter-btn" data-filter="video">Videos</button>
+</div>
+
 <!-- Gallery Grid -->
 <div class="media-grid" id="media-grid">
   {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/media/'" %}
