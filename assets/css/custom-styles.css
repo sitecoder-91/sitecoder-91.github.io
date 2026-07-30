@@ -308,3 +308,34 @@
     gap: 12px;
   }
 }
+
+/* Call to Action Button Styles */
+.cta-container {
+  text-align: center;
+  margin: 3em 0 1em 0;
+  padding-top: 1em;
+  border-top: 1px solid rgba(224, 169, 109, 0.2);
+}
+
+.cta-button {
+  display: inline-block;
+  background: transparent;
+  color: #E0A96D;
+  border: 1.5px solid #E0A96D;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(224, 169, 109, 0.1);
+}
+
+.cta-button:hover {
+  background: rgba(224, 169, 109, 0.15);
+  color: #EAEAEA;
+  box-shadow: 0 6px 20px rgba(224, 169, 109, 0.25);
+  transform: translateY(-2px);
+}

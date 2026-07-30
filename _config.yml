@@ -29,6 +29,7 @@ navbar-links:
   About Me: "about"
   Media: "media"
   Blog: "blog"
+  Contact & Bookings: "contact"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"

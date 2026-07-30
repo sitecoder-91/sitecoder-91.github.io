@@ -54,3 +54,7 @@ My rates are structured purely around the duration of our companionship, with al
 * **Extended bookings & Travel:** Custom rates available upon request.
 
 **Ready to curate your perfect encounter?**
+
+<div class="cta-container">
+    <a href="{{ '/contact/' | relative_url }}" class="cta-button">Discuss Your Desires</a>
+</div>
