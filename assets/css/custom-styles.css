@@ -339,3 +339,25 @@
   box-shadow: 0 6px 20px rgba(224, 169, 109, 0.25);
   transform: translateY(-2px);
 }
+
+/* Navigation Dropdown Styling */
+.navbar-custom .dropdown-menu {
+  background-color: #1C1C1C;
+  border: 1px solid rgba(224, 169, 109, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 8px 0;
+}
+
+.navbar-custom .dropdown-item {
+  color: #EAEAEA;
+  padding: 8px 20px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+  background-color: rgba(224, 169, 109, 0.15);
+  color: #E0A96D;
+}

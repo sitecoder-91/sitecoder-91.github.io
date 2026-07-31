@@ -11,6 +11,7 @@
 
 # Name of website
 title: Nara Domingos | Elite Escort & Companion UK
+navbar-title: Nara Domingos
 
 # Your name to show in the footer
 author: Nara Domingos
@@ -26,10 +27,11 @@ url: "https://www.naraexperience.space"
 
 navbar-links:
   Companion Services: "services"
-  About Me: "about"
-  Media: "media"
-  Blog: "blog"
   Contact & Bookings: "contact"
+  About & Media:
+    - Bio: "about"
+    - Gallery: "media"
+  Blog: "blog"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
