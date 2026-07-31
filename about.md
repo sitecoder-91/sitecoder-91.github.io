@@ -27,3 +27,6 @@ I’ll be seeing you soon. I can already tell you’re craving it.
 
 Today, I operate as an independent companion and escort based in the UK. My home base is in East Anglia, split between Norwich and Cambridge, but I frequently travel to London for longer bookings and overnight engagements.
 
+<div class="cta-container">
+    <a href="{{ '/contact/' | relative_url }}" class="cta-button">Get in Touch</a>
+</div>

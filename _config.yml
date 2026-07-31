@@ -11,6 +11,7 @@
 
 # Name of website
 title: Nara Domingos | Elite Escort & Companion UK
+navbar-title: Nara Domingos
 
 # Your name to show in the footer
 author: Nara Domingos
@@ -26,8 +27,10 @@ url: "https://www.naraexperience.space"
 
 navbar-links:
   Companion Services: "services"
-  About Me: "about"
-  Media: "media"
+  Contact & Bookings: "contact"
+  About & Media:
+    - Bio: "about"
+    - Gallery: "media"
   Blog: "blog"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -60,8 +63,8 @@ round-avatar: true
 social-network-links:
 #  email: "nara.domingos.br@gmail.com"
   email: "nara.domingos@atomicmail.io"
-  whatsapp: 447312041544
-  telephone: "00447426446329"
+  whatsapp: "447312041544"
+  telephone: "+447477220634"
   mastodon: aus.social/@nara_dreams
   bluesky: naraexperience.space
   snapchat: lylla_sin

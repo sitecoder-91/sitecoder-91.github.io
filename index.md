@@ -27,3 +27,7 @@ Are you ready to see what happens when the fantasy comes to life?
 As an independent Brazilian escort base-camped in East Anglia, I divide my time between hosting and visiting clients. If you have been searching for me under my former names like *wheresarah* or *saraharoundtheworld1*, you have finally found my new private home.
 
 Whether you are looking to book an elite escort in London, a Cambridge escort, or a Norwich escort for an intimate Girlfriend Experience, I am available to travel throughout East Anglia and the wider UK to turn your fantasy into reality.
+
+<div class="cta-container">
+    <a href="{{ '/contact/' | relative_url }}" class="cta-button">Book an Experience</a>
+</div>

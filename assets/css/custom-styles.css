@@ -308,3 +308,191 @@
     gap: 12px;
   }
 }
+
+/* Call to Action Button Styles */
+.cta-container {
+  text-align: center;
+  margin: 3em 0 1em 0;
+  padding-top: 1em;
+  border-top: 1px solid rgba(224, 169, 109, 0.2);
+}
+
+.cta-button {
+  display: inline-block;
+  background: transparent;
+  color: #E0A96D;
+  border: 1.5px solid #E0A96D;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(224, 169, 109, 0.1);
+}
+
+.cta-button:hover {
+  background: rgba(224, 169, 109, 0.15);
+  color: #EAEAEA;
+  box-shadow: 0 6px 20px rgba(224, 169, 109, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Navigation Dropdown Styling */
+.navbar-custom .dropdown-menu {
+  background-color: #1C1C1C;
+  border: 1px solid rgba(224, 169, 109, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 8px 0;
+}
+
+.navbar-custom .dropdown-item {
+  color: #EAEAEA;
+  padding: 8px 20px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+  background-color: rgba(224, 169, 109, 0.15);
+  color: #E0A96D;
+}
+
+/* Payment & Deposit Card Styling */
+.payment-card {
+  background: linear-gradient(135deg, rgba(28, 28, 28, 0.85) 0%, rgba(20, 20, 20, 0.95) 100%);
+  border: 1px solid rgba(224, 169, 109, 0.3);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 2em 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.payment-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #E0A96D, #D4A373);
+}
+
+.payment-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(224, 169, 109, 0.15);
+  padding-bottom: 10px;
+}
+
+.payment-card-title {
+  color: #E0A96D;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.payment-card-subtitle {
+  color: #888888;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.payment-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 15px 0;
+}
+
+.payment-detail-item {
+  background: rgba(18, 18, 18, 0.6);
+  border: 1px solid rgba(224, 169, 109, 0.15);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.payment-detail-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888888;
+  margin-bottom: 4px;
+}
+
+.payment-detail-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #EAEAEA;
+  font-family: monospace, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.payment-notice {
+  font-size: 0.85rem;
+  color: #888888;
+  font-style: italic;
+  margin-top: 14px;
+  line-height: 1.4;
+}
+
+/* Contact Cards Grid */
+.contact-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 1.8em 0 1.5em 0;
+}
+
+.contact-card-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 16px;
+  background: rgba(28, 28, 28, 0.6);
+  border: 1.5px solid rgba(224, 169, 109, 0.4);
+  border-radius: 10px;
+  color: #EAEAEA !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card-btn:hover {
+  background: rgba(224, 169, 109, 0.15);
+  border-color: #E0A96D;
+  color: #E0A96D !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(224, 169, 109, 0.25);
+}
+
+.contact-card-btn .btn-action {
+  color: #E0A96D;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.contact-card-btn .btn-detail {
+  font-size: 0.85rem;
+  color: #888888;
+  transition: color 0.3s ease;
+}
+
+.contact-card-btn:hover .btn-detail {
+  color: #EAEAEA;
+}
