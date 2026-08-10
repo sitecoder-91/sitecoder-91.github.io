@@ -22,7 +22,7 @@ To ensure the highest level of discretion and quality, I handle all inquiries di
     {% endif %}
     {% if site.social-network-links.whatsapp %}
     <a href="https://wa.me/{{ site.social-network-links.whatsapp }}" target="_blank" rel="noopener" class="contact-card-btn">
-        <span class="btn-action">WhatsApp Me</span>
+        <span class="btn-action">WhatsApp (UK)</span>
         <span class="btn-detail">+{{ site.social-network-links.whatsapp }}</span>
     </a>
     {% endif %}
@@ -30,6 +30,23 @@ To ensure the highest level of discretion and quality, I handle all inquiries di
     <a href="tel:{{ site.social-network-links.telephone }}" class="contact-card-btn">
         <span class="btn-action">Call Me</span>
         <span class="btn-detail">{{ site.social-network-links.telephone }}</span>
+    </a>
+    {% endif %}
+</div>
+
+---
+
+### Parties & Events in Brazil
+
+When I am back home in São Paulo, I host select private gatherings and parties at my place. If you are interested in joining or inquiring about upcoming events in Brazil, please reach out via my dedicated Brazilian WhatsApp contact.
+
+* **Address / Location**: [27 R. Santo Henrique, São Paulo](https://w3w.co/task.greeting.answer)
+
+<div class="contact-options-grid">
+    {% if site.social-network-links.whatsapp_br %}
+    <a href="https://wa.me/{{ site.social-network-links.whatsapp_br }}" target="_blank" rel="noopener" class="contact-card-btn">
+        <span class="btn-action">WhatsApp (Brazil Parties)</span>
+        <span class="btn-detail">+{{ site.social-network-links.whatsapp_br }}</span>
     </a>
     {% endif %}
 </div>
