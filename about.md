@@ -2,14 +2,14 @@
 layout: page
 title: About Nara Domingos
 subtitle: "Brazilian Escort in the UK: My Journey & Philosophy"
-share-description: "Get to know Nara Domingos (aka wheresarah / saraharoundtheworld1). Read about the life, background, and philosophy of a premier Brazilian escort based in East Anglia (Norwich, Cambridge) and London."
+share-description: "Get to know Nara Domingos (aka wheresarah / saraharoundtheworld1/ Livia Beanucci). Read about the life, background, and philosophy of a premier Brazilian escort based in UK."
 ---
 
 ## Hi, I’m Nara.
 <img src="/assets/img/about.jpg" alt="About" class="services-image" />
 It’s a pleasure to finally make your acquaintance—or, perhaps, to be reacquainted.
 
-Maybe you already know me by another name? Saraharoundtheworld1, WhereSarah, Violet Raz or perhaps Lylla_Sin?
+Maybe you already know me by another name? Saraharoundtheworld1, WhereSarah, Livia Beanucci or perhaps Lylla_Sin?
 
 Regardless of whether we’ve crossed paths before or if our first encounter is just around the corner, let me reintroduce myself properly.
 
@@ -25,7 +25,7 @@ I love to let you think you’re in control, even when we both know exactly who�
 
 I’ll be seeing you soon. I can already tell you’re craving it.
 
-Today, I operate as an independent companion and escort based in the UK. My home base is in East Anglia, split between Norwich and Cambridge, but I frequently travel to London for longer bookings and overnight engagements.
+Today, I operate as an independent companion and escort based in the UK, willing to travel and tour across the country.
 
 <div class="cta-container">
     <a href="{{ '/contact/' | relative_url }}" class="cta-button">Get in Touch</a>
