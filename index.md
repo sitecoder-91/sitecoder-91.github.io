@@ -26,7 +26,7 @@ Are you ready to see what happens when the fantasy comes to life?
 ### High-End Companionship Across the UK
 As an independent Brazilian escort, I divide my time between hosting and visiting clients. If you have been searching for me under my former names like *wheresarah*, *saraharoundtheworld1* or *Livia Beanucci*, you have finally found my new private home.
 
-Whether you are looking to book an elite escort in London, a Cambridge escort, or a Norwich escort for an intimate Girlfriend Experience, I am available to travel throughout East Anglia and the wider UK to turn your fantasy into reality.
+Whether you are looking to book an elite companion in London or anywhere across the country for an intimate Girlfriend Experience, I am available for independent UK touring and travel to turn your fantasy into reality.
 
 <div class="cta-container">
     <a href="{{ '/contact/' | relative_url }}" class="cta-button">Book an Experience</a>

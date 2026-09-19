@@ -9,7 +9,7 @@ share-description: "Get in touch with Nara Domingos to book your Girlfriend Expe
 
 I am delighted that you are ready to take the next step. 
 
-Whether you are looking for an intimate companion in East Anglia, a dinner date in Cambridge, or an extended experience in London, I am here to make your desires a reality.
+Whether you are looking for an intimate companion for a UK tour date, a dinner date in London, or a custom getaway anywhere across the country, I am here to make your desires a reality.
 
 To ensure the highest level of discretion and quality, I handle all inquiries directly. Please reach out through your preferred contact method below, and I will respond as soon as I am able.
 
