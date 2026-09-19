@@ -2,7 +2,7 @@
 layout: page
 title: Elite Escort UK & GFE Companion
 subtitle: Real Chemistry, Real Passion, Really Yours.
-share-description: "Nara Domingos (formerly known as wheresarah or saraharoundtheworld1) is a premier Brazilian escort in the UK. Book custom GFE companion services in London, Cambridge, Norwich, and East Anglia."
+share-description: "Nara Domingos (formerly known as wheresarah, saraharoundtheworld1 or Livia Beanucci) is a premier Brazilian escort in the UK. Book custom GFE companion services in across the country."
 ---
 
 **The fantasy stops where I begin.**
@@ -23,8 +23,8 @@ I invite you to step into my private space, where the boundary between dream and
 
 Are you ready to see what happens when the fantasy comes to life?
 
-### High-End Companionship Across the UK & East Anglia
-As an independent Brazilian escort base-camped in East Anglia, I divide my time between hosting and visiting clients. If you have been searching for me under my former names like *wheresarah* or *saraharoundtheworld1*, you have finally found my new private home.
+### High-End Companionship Across the UK
+As an independent Brazilian escort, I divide my time between hosting and visiting clients. If you have been searching for me under my former names like *wheresarah*, *saraharoundtheworld1* or *Livia Beanucci*, you have finally found my new private home.
 
 Whether you are looking to book an elite escort in London, a Cambridge escort, or a Norwich escort for an intimate Girlfriend Experience, I am available to travel throughout East Anglia and the wider UK to turn your fantasy into reality.
 
